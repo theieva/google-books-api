@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  background-color: #4A69B5;
+  text-align: center;
+
+}
+.SearchBar{
+    align-self: center;
+    width: 100%;
+    background-color: #15EA33;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.FilterList{
+  width: 100%;
+  background-color: #36C99B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.book-container{
+  align-self: center;
+  width: 100%;
+}
+
+.BookList{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: #32CDCA;
+  
+}
+
+
